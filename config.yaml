@@ -1,0 +1,26 @@
+attn_drop: 0.3
+batch_size: 128
+cv_folds: 1
+data_dir: data/Lung_Cancer_Matrix
+drop_neg: 0.3
+drop_rate: 0.3
+heads: 4
+hidden_channels: 24
+pos_lambda: 0.1
+neg_lambda: 0.1
+learnable_factor: True
+load_data: True
+log_dir: log
+loss: MMD
+model: DSGNN
+num_epochs: 300
+num_neighbors: [40, 10]
+overlap: False
+pooling: max
+pre_drop_rate: 0
+repeat: 1
+residual: 1.
+sample_rate: 1.0
+stable: True
+start_epoch: 500
+out_dir: outs

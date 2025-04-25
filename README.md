@@ -1,1 +1,1 @@
-code for SWGNN
+This is the source code for the paper "Weighted Mix-Hop GNN with Structural Information Enhancement for Cancer Driver Gene Identification" are included here. Detailed running tutorial will be supplemented after the paper is formally accepted.
